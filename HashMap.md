@@ -1,5 +1,5 @@
 
-# 🗺️ Java `HashMap` – Kompletna Dokumentacja dla Początkujących
+# 🗺️ Java `HashMap`
 
 `HashMap` to część biblioteki kolekcji w Javie i służy do przechowywania par klucz-wartość. Jest to implementacja interfejsu `Map`.
 
