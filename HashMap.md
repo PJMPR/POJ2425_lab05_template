@@ -74,22 +74,6 @@ for (Map.Entry<String, Integer> entry : map.entrySet()) {
 
 ---
 
-## ⚠️ Uwagi
-
-- `HashMap` **nie jest synchronizowana** – nie jest bezpieczna w środowisku wielowątkowym.
-- Jeśli potrzebujesz wersji bezpiecznej dla wielu wątków, użyj `Collections.synchronizedMap()` lub `ConcurrentHashMap`.
-
----
-
-## 📚 Powiązane klasy i interfejsy
-
-- `Map` – główny interfejs.
-- `TreeMap` – implementacja mapy z posortowanymi kluczami.
-- `LinkedHashMap` – implementacja mapy z zachowaniem kolejności dodania.
-- `ConcurrentHashMap` – mapa dla środowisk wielowątkowych.
-
----
-
 ## ✅ Kiedy używać `HashMap`
 
 - Kiedy potrzebujesz **szybkiego dostępu** do danych na podstawie unikalnego klucza.
@@ -97,8 +81,4 @@ for (Map.Entry<String, Integer> entry : map.entrySet()) {
 - Gdy nie operujesz w środowisku wielowątkowym (lub masz kontrolę nad synchronizacją).
 
 ---
-
-## 🧪 Testuj samodzielnie
-
-Spróbuj stworzyć `HashMap`, dodać kilka elementów, usunąć jeden, sprawdzić obecność klucza i wypisać całą mapę.
 
